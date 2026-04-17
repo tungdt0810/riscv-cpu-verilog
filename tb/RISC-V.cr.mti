@@ -1,0 +1,149 @@
+D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/adder.v {1 {vlog -work work -vopt -stats=none D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/adder.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module adder
+
+Top level modules:
+	adder
+
+} {} {}} D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/control_unit.v {1 {vlog -work work -vopt -stats=none D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/control_unit.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module control_unit
+
+Top level modules:
+	control_unit
+
+} {} {}} D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/ex_stage.v {1 {vlog -work work -vopt -stats=none D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/ex_stage.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module ex_stage
+
+Top level modules:
+	ex_stage
+
+} {} {}} D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/id_stage.v {1 {vlog -work work -vopt -stats=none D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/id_stage.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module id_stage
+
+Top level modules:
+	id_stage
+
+} {} {}} D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/riscv_top.v {1 {vlog -work work -vopt -stats=none D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/riscv_top.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module riscv_top
+
+Top level modules:
+	riscv_top
+
+} {} {}} D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/hazard_unit.v {1 {vlog -work work -vopt -stats=none D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/hazard_unit.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module hazard_unit
+
+Top level modules:
+	hazard_unit
+
+} {} {}} D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/mem_stage.v {1 {vlog -work work -vopt -stats=none D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/mem_stage.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mem_stage
+
+Top level modules:
+	mem_stage
+
+} {} {}} D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/if_stage.v {1 {vlog -work work -vopt -stats=none D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/if_stage.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module if_stage
+
+Top level modules:
+	if_stage
+
+} {} {}} D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/instruction_memory.v {1 {vlog -work work -vopt -stats=none D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/instruction_memory.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module instruction_memory
+
+Top level modules:
+	instruction_memory
+
+} {} {}} D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/main_decoder.v {1 {vlog -work work -vopt -stats=none D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/main_decoder.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module main_decoder
+
+Top level modules:
+	main_decoder
+
+} {} {}} D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/pipeline_regs.v {1 {vlog -work work -vopt -stats=none D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/pipeline_regs.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module pipeline_IF_ID
+-- Compiling module pipeline_ID_EX
+-- Compiling module pipeline_EX_MEM
+-- Compiling module pipeline_MEM_WB
+
+Top level modules:
+	pipeline_IF_ID
+	pipeline_ID_EX
+	pipeline_EX_MEM
+	pipeline_MEM_WB
+
+} {} {}} D:/hoc/2025.2/KTMT2/BTL/RISC-V/tb/tb_riscv_top.v {1 {vlog -work work -vopt -stats=none D:/hoc/2025.2/KTMT2/BTL/RISC-V/tb/tb_riscv_top.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module tb_riscv_top
+
+Top level modules:
+	tb_riscv_top
+
+} {} {}} D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/mux.v {1 {vlog -work work -vopt -stats=none D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/mux.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module mux
+-- Compiling module mux_3_1
+
+Top level modules:
+	mux
+	mux_3_1
+
+} {} {}} D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/alu.v {1 {vlog -work work -vopt -stats=none D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/alu.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/data_memory.v {1 {vlog -work work -vopt -stats=none D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/data_memory.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module data_memory
+
+Top level modules:
+	data_memory
+
+} {} {}} D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/imm_extend.v {1 {vlog -work work -vopt -stats=none D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/imm_extend.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module imm_extend
+
+Top level modules:
+	imm_extend
+
+} {} {}} D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/pc.v {1 {vlog -work work -vopt -stats=none D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/pc.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/wb_stage.v {1 {vlog -work work -vopt -stats=none D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/wb_stage.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module wb_stage
+
+Top level modules:
+	wb_stage
+
+} {} {}} D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/register_file.v {1 {vlog -work work -vopt -stats=none D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/register_file.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module register_file
+
+Top level modules:
+	register_file
+
+} {} {}} D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/alu_decoder.v {1 {vlog -work work -vopt -stats=none D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/alu_decoder.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module alu_decoder
+
+Top level modules:
+	alu_decoder
+
+} {} {}}

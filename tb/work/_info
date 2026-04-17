@@ -1,0 +1,528 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/questasim64_10.7c/examples
+T_opt
+!s110 1776441329
+VMOVLLkKdUV;>3FbC]]=fh1
+04 12 4 work tb_riscv_top fast 0
+=1-482ae358322e-69e257f0-36d-2ad4
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7c;67
+R0
+vadder
+Z2 !s110 1776441389
+!i10b 1
+!s100 bfH7hO0b8AlcIHlCa6I9R3
+I1RP:E_OXN>J:@`1?B@QHZ2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 dD:/hoc/2025.2/KTMT2/BTL/RISC-V/tb
+w1776424190
+8D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/adder.v
+FD:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/adder.v
+L0 1
+Z5 OL;L;10.7c;67
+r1
+!s85 0
+31
+Z6 !s108 1776441389.000000
+!s107 D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/adder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/adder.v|
+!i113 0
+Z7 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+valu
+R2
+!i10b 1
+!s100 9h?YLC94Gz9<Xc`gG:7j83
+I;m[8R2LeLjV8^dd5:6BkO1
+R3
+R4
+w1776440732
+8D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/alu.v
+FD:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/alu.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/alu.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/alu.v|
+!i113 0
+R7
+R1
+valu_decoder
+R2
+!i10b 1
+!s100 S6Jjmm@:n>VzRWdeD=L:W0
+IJObEn^52PTZVb1_fizoRj0
+R3
+R4
+w1776440702
+8D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/alu_decoder.v
+FD:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/alu_decoder.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/alu_decoder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/alu_decoder.v|
+!i113 0
+R7
+R1
+vcontrol_unit
+R2
+!i10b 1
+!s100 f;eFDBV7Wnh[kX0I5<M5_3
+I^kET@JnbmeaWflIoNWzmb2
+R3
+R4
+w1776438348
+8D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/control_unit.v
+FD:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/control_unit.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/control_unit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/control_unit.v|
+!i113 0
+R7
+R1
+vdata_memory
+R2
+!i10b 1
+!s100 HE42[_P8A?WH^Xg[E>lOJ1
+IGoRW_<6?jl4CJJ51D^2MU3
+R3
+R4
+w1776438369
+8D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/data_memory.v
+FD:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/data_memory.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/data_memory.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/data_memory.v|
+!i113 0
+R7
+R1
+vex_stage
+R2
+!i10b 1
+!s100 TJ6Y_ombk;lIjK6Ci1L0V1
+I1nodfkmGdVlQ=N]6TzH2@3
+R3
+R4
+w1776438395
+8D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/ex_stage.v
+FD:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/ex_stage.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/ex_stage.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/ex_stage.v|
+!i113 0
+R7
+R1
+vhazard_unit
+R2
+!i10b 1
+!s100 hKQ32PFTXDXaLHnR6BT7l1
+IT0e:<5HQ5e3fZRhRF@K[A3
+R3
+R4
+w1776438413
+8D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/hazard_unit.v
+FD:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/hazard_unit.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/hazard_unit.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/hazard_unit.v|
+!i113 0
+R7
+R1
+vid_stage
+R2
+!i10b 1
+!s100 4>17W^GIhDmHT5O370C;A0
+I<cm@]3ca=MWRZeI?Y]2;D1
+R3
+R4
+w1776438420
+8D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/id_stage.v
+FD:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/id_stage.v
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/id_stage.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/id_stage.v|
+!i113 0
+R7
+R1
+vif_stage
+R2
+!i10b 1
+!s100 3b>=7QAzFH40eXbTWza9L1
+I4>m7Z4bWE@nfZHkPUT<<82
+R3
+R4
+w1776438425
+8D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/if_stage.v
+FD:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/if_stage.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/if_stage.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/if_stage.v|
+!i113 0
+R7
+R1
+vimm_extend
+R2
+!i10b 1
+!s100 cfSE]7`k^3oS3QeQlTzNl3
+ITTi@j@:=c4I^oOkMWhDXl3
+R3
+R4
+w1776438430
+8D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/imm_extend.v
+FD:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/imm_extend.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/imm_extend.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/imm_extend.v|
+!i113 0
+R7
+R1
+vinstruction_memory
+Z8 !s110 1776441390
+!i10b 1
+!s100 UZ[TLc5[>HDjIamFXGPil2
+I5X_hIbVA?::j8_hFG1GPY0
+R3
+R4
+w1776438435
+8D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/instruction_memory.v
+FD:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/instruction_memory.v
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/instruction_memory.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/instruction_memory.v|
+!i113 0
+R7
+R1
+vmain_decoder
+R8
+!i10b 1
+!s100 bO58@40Q3J?44_CBd]S]:2
+IPhH?oa]_X8l]EXH2<kYR:0
+R3
+R4
+w1776438440
+8D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/main_decoder.v
+FD:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/main_decoder.v
+L0 1
+R5
+r1
+!s85 0
+31
+Z9 !s108 1776441390.000000
+!s107 D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/main_decoder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/main_decoder.v|
+!i113 0
+R7
+R1
+vmem_stage
+R8
+!i10b 1
+!s100 TIU:fiR2ihX^:UHGCMbdS1
+IZmKWeN6W=TLRV]2KgiPo?3
+R3
+R4
+w1776438447
+8D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/mem_stage.v
+FD:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/mem_stage.v
+L0 1
+R5
+r1
+!s85 0
+31
+R9
+!s107 D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/mem_stage.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/mem_stage.v|
+!i113 0
+R7
+R1
+vmux
+R8
+!i10b 1
+!s100 V69ZSoiB:]0Id9gaH94N_3
+I;ZFOec7M6Zz0<`cDDVC1I1
+R3
+R4
+Z10 w1776438455
+Z11 8D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/mux.v
+Z12 FD:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/mux.v
+L0 2
+R5
+r1
+!s85 0
+31
+R9
+Z13 !s107 D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/mux.v|
+Z14 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/mux.v|
+!i113 0
+R7
+R1
+vmux_3_1
+R8
+!i10b 1
+!s100 >RDXjZD`jmJR[JeBlNcz21
+ImJ6@WFe`k;b_laH;U:8O82
+R3
+R4
+R10
+R11
+R12
+L0 14
+R5
+r1
+!s85 0
+31
+R9
+R13
+R14
+!i113 0
+R7
+R1
+vpc
+R8
+!i10b 1
+!s100 5FYeYdXLnhO^J8EQeXWf@0
+IKnCc6E8hUc096VFj:fH3h0
+R3
+R4
+w1776438460
+8D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/pc.v
+FD:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/pc.v
+L0 1
+R5
+r1
+!s85 0
+31
+R9
+!s107 D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/pc.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/pc.v|
+!i113 0
+R7
+R1
+vpipeline_EX_MEM
+R8
+!i10b 1
+!s100 _3b_Wd^O22CP<oPV[YgI>0
+IJ3NFbHl1dZdo;JBY2f7jI3
+R3
+R4
+Z15 w1776438466
+Z16 8D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/pipeline_regs.v
+Z17 FD:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/pipeline_regs.v
+L0 129
+R5
+r1
+!s85 0
+31
+R9
+Z18 !s107 D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/pipeline_regs.v|
+Z19 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/pipeline_regs.v|
+!i113 0
+R7
+R1
+npipeline_@e@x_@m@e@m
+vpipeline_ID_EX
+R8
+!i10b 1
+!s100 40Zz`=WYcF]C^n02[jfDm3
+I9lMfWX`FJILRg0SD5ONL80
+R3
+R4
+R15
+R16
+R17
+L0 36
+R5
+r1
+!s85 0
+31
+R9
+R18
+R19
+!i113 0
+R7
+R1
+npipeline_@i@d_@e@x
+vpipeline_IF_ID
+R8
+!i10b 1
+!s100 3C7mNe7UfU`:V[3N@80M?1
+I353ZX5P_V15iRHKkzkd4e3
+R3
+R4
+R15
+R16
+R17
+L0 1
+R5
+r1
+!s85 0
+31
+R9
+R18
+R19
+!i113 0
+R7
+R1
+npipeline_@i@f_@i@d
+vpipeline_MEM_WB
+R8
+!i10b 1
+!s100 H4;SJJ29H_[EgT]=I4o9<2
+I`oN:EME^foLYi;Ug8@0;92
+R3
+R4
+R15
+R16
+R17
+L0 181
+R5
+r1
+!s85 0
+31
+R9
+R18
+R19
+!i113 0
+R7
+R1
+npipeline_@m@e@m_@w@b
+vregister_file
+R8
+!i10b 1
+!s100 SSh=U3^f?`MG2WzR8l2gT2
+IbzIMYbfmb3R=W0<aYYBZG0
+R3
+R4
+w1776438470
+8D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/register_file.v
+FD:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/register_file.v
+L0 1
+R5
+r1
+!s85 0
+31
+R9
+!s107 D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/register_file.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/register_file.v|
+!i113 0
+R7
+R1
+vriscv_top
+R8
+!i10b 1
+!s100 0iRY6`jLk<8AE5h?>CcE20
+IA7eoP8e4BgGG;EfAJSd573
+R3
+R4
+w1776438479
+8D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/riscv_top.v
+FD:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/riscv_top.v
+L0 1
+R5
+r1
+!s85 0
+31
+R9
+!s107 D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/riscv_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/riscv_top.v|
+!i113 0
+R7
+R1
+vtb_riscv_top
+R8
+!i10b 1
+!s100 3:D0GWSJ;3?YI`o:0k=Sb1
+Ij4849ZG`]5MVLFA?BXiE12
+R3
+R4
+w1776441212
+8D:/hoc/2025.2/KTMT2/BTL/RISC-V/tb/tb_riscv_top.v
+FD:/hoc/2025.2/KTMT2/BTL/RISC-V/tb/tb_riscv_top.v
+L0 2
+R5
+r1
+!s85 0
+31
+R9
+!s107 D:/hoc/2025.2/KTMT2/BTL/RISC-V/tb/tb_riscv_top.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/hoc/2025.2/KTMT2/BTL/RISC-V/tb/tb_riscv_top.v|
+!i113 0
+R7
+R1
+vwb_stage
+R8
+!i10b 1
+!s100 1zB2iUX?2l6EmbhiXD72@3
+I1LXP?FK2fAZ<0J87<dLkb3
+R3
+R4
+w1776438490
+8D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/wb_stage.v
+FD:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/wb_stage.v
+L0 1
+R5
+r1
+!s85 0
+31
+R9
+!s107 D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/wb_stage.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/wb_stage.v|
+!i113 0
+R7
+R1

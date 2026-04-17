@@ -1,0 +1,144 @@
+# Reading C:/questasim64_10.7c/tcl/vsim/pref.tcl
+# //  Questa Sim-64
+# //  Version 10.7c win64 Aug 18 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading project RISC-V
+# Compile of adder.v was successful.
+# Compile of alu.v was successful.
+# Compile of alu_decoder.v was successful.
+# Compile of control_unit.v was successful.
+# Compile of data_memory.v was successful.
+# Compile of ex_stage.v was successful.
+# Compile of hazard_unit.v was successful.
+# Compile of id_stage.v was successful.
+# Compile of if_stage.v was successful.
+# Compile of imm_extend.v was successful.
+# Compile of instruction_memory.v was successful.
+# Compile of main_decoder.v was successful.
+# Compile of mem_stage.v was successful.
+# Compile of mux.v was successful.
+# Compile of pc.v was successful.
+# Compile of pipeline_regs.v was successful.
+# Compile of register_file.v was successful.
+# Compile of riscv_top.v was successful.
+# Compile of wb_stage.v was successful.
+# Compile of tb_riscv_top.v was successful.
+# 20 compiles, 0 failed with no errors.
+vsim -voptargs=+acc work.tb_riscv_top
+# vsim -voptargs="+acc" work.tb_riscv_top 
+# Start time: 22:56:39 on Apr 17,2026
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.tb_riscv_top(fast)
+# Loading work.riscv_top(fast)
+# Loading work.if_stage(fast)
+# Loading work.mux(fast)
+# Loading work.pc(fast)
+# Loading work.adder(fast)
+# Loading work.instruction_memory(fast)
+# Loading work.pipeline_IF_ID(fast)
+# Loading work.id_stage(fast)
+# Loading work.control_unit(fast)
+# Loading work.main_decoder(fast)
+# Loading work.alu_decoder(fast)
+# Loading work.register_file(fast)
+# Loading work.imm_extend(fast)
+# Loading work.pipeline_ID_EX(fast)
+# Loading work.ex_stage(fast)
+# Loading work.mux_3_1(fast)
+# Loading work.alu(fast)
+# Loading work.pipeline_EX_MEM(fast)
+# Loading work.mem_stage(fast)
+# Loading work.data_memory(fast)
+# Loading work.pipeline_MEM_WB(fast)
+# Loading work.wb_stage(fast)
+# Loading work.hazard_unit(fast)
+add wave -position insertpoint sim:/tb_riscv_top/uut/*
+run -all
+# ** Warning: (vsim-PLI-3408) Too few data words read on line 189 of file "memfile.hex". Expected 1024, found 69.    : D:/hoc/2025.2/KTMT2/BTL/RISC-V/tb/tb_riscv_top.v(22)
+#    Time: 0 ps  Iteration: 0  Instance: /tb_riscv_top
+# === tb_riscv_top  (full RV32I instruction coverage) ===
+# 
+# -- Setup --
+#   PASS  [00700093] addi  x1, x0, 7  -->  x1 = 00000007
+#   PASS  [ffd00113] addi  x2, x0, -3  -->  x2 = fffffffd
+#   PASS  [00300193] addi  x3, x0, 3  -->  x3 = 00000003
+# 
+# -- R-type --
+#   PASS  [00208db3] add   x27, x1, x2  -->  x27 = 00000004
+#   PASS  [0020e3b3] or    x7, x1, x2  -->  x7 = ffffffff
+#   PASS  [0020c433] xor   x8, x1, x2  -->  x8 = fffffffa
+#   PASS  [003094b3] sll   x9, x1, x3  -->  x9 = 00000038
+#   PASS  [00315533] srl   x10, x2, x3  -->  x10 = 1fffffff
+#   PASS  [403155b3] sra   x11, x2, x3  -->  x11 = ffffffff
+#   PASS  [00112633] slt   x12, x2, x1  -->  x12 = 00000001
+#   PASS  [0020b6b3] sltu  x13, x1, x2  -->  x13 = 00000001
+# 
+# -- I-type arithmetic --
+#   PASS  [06400713] addi  x14, x0, 100  -->  x14 = 00000064
+#   PASS  [00f77793] andi  x15, x14, 15  -->  x15 = 00000004
+#   PASS  [08076813] ori   x16, x14, 128  -->  x16 = 000000e4
+#   PASS  [0ff74893] xori  x17, x14, 255  -->  x17 = 0000009b
+#   PASS  [00209913] slli  x18, x1, 2  -->  x18 = 0000001c
+#   PASS  [00415993] srli  x19, x2, 4  -->  x19 = 0fffffff
+#   PASS  [40415a13] srai  x20, x2, 4  -->  x20 = ffffffff
+#   PASS  [00012a93] slti  x21, x2, 0  -->  x21 = 00000001
+#   PASS  [00a0bb13] sltiu x22, x1, 10  -->  x22 = 00000001
+# 
+# -- LUI / AUIPC --
+#   PASS  [abcdebb7] lui   x23, 0xabcde  -->  x23 = abcde000
+#   PASS  [00000c17] auipc x24, 0x00000  -->  x24 = 0000005c
+# 
+# -- sw / lw --
+#   PASS  [00402c83] lw    x25, 4(x0)  -->  x25 = 00000064
+#   PASS  [019c8d33] add   x26, x25, x25  -->  x26 = 0000000e
+# 
+# -- sb / lb --
+#   PASS  [00800283] lb    x5, 8(x0)  -->  x5 = ffffffab
+# 
+# -- sh / lh --
+#   PASS  [00a01203] lh    x4, 10(x0)  -->  x4 = fffffed4
+# 
+# -- sh / lhu --
+#   PASS  [00a05303] lhu   x6, 10(x0)  -->  x6 = 0000fed4
+# 
+# -- Branches (beq/bne/blt/bge/bltu/bgeu + not-taken) --
+#   PASS  ltu/bgeu + not-taken                      -->  x28 = 00000002
+# 
+# -- JAL --
+#   PASS  [00c00eef] jal   x29, 12  -->  x29 = 000000b4
+# 
+# -- JALR --
+#   PASS  [0cc00f13] addi  x30, x0, 204  -->  x30 = 000000cc
+#   PASS  [000f0fe7] jalr  x31, x30, 0  -->  x31 = 000000c4
+# 
+# -- Hazard coverage (EX/MEM fwd, MEM/WB fwd, load-use stall) --
+#   PASS  [00a01203] lh    x4, 10(x0)  -->  x4 = fffffed4
+# 
+# -- Invariants --
+#   PASS  [00208db3] add   x27, x1, x2  -->  x27 = 00000004
+#   PASS  x0 always 0
+# 
+# -- Halt verification --
+#   PASS  halt: PC in [0x110..0x118] for 9 cycles
+# 
+# -- Mid-run reset --
+#   PASS  reset: PC=0
+# 
+# === tb_riscv_top: 36 passed, 0 failed ===
+# ** Note: $finish    : D:/hoc/2025.2/KTMT2/BTL/RISC-V/tb/tb_riscv_top.v(312)
+#    Time: 2646 ns  Iteration: 0  Instance: /tb_riscv_top
+# 1
+# Break in Module tb_riscv_top at D:/hoc/2025.2/KTMT2/BTL/RISC-V/tb/tb_riscv_top.v line 312
+
+
