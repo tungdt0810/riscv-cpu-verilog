@@ -1,0 +1,369 @@
+$date
+	Fri May 08 09:01:36 2026
+$end
+$version
+	QuestaSim Version 10.7c
+$end
+$timescale
+	1ps
+$end
+
+$scope module tb_pc $end
+$var reg 1 ! clk $end
+$var reg 1 " rstn $end
+$var reg 1 # en $end
+$var reg 32 $ pc_next [31:0] $end
+$var wire 1 % pc [31] $end
+$var wire 1 & pc [30] $end
+$var wire 1 ' pc [29] $end
+$var wire 1 ( pc [28] $end
+$var wire 1 ) pc [27] $end
+$var wire 1 * pc [26] $end
+$var wire 1 + pc [25] $end
+$var wire 1 , pc [24] $end
+$var wire 1 - pc [23] $end
+$var wire 1 . pc [22] $end
+$var wire 1 / pc [21] $end
+$var wire 1 0 pc [20] $end
+$var wire 1 1 pc [19] $end
+$var wire 1 2 pc [18] $end
+$var wire 1 3 pc [17] $end
+$var wire 1 4 pc [16] $end
+$var wire 1 5 pc [15] $end
+$var wire 1 6 pc [14] $end
+$var wire 1 7 pc [13] $end
+$var wire 1 8 pc [12] $end
+$var wire 1 9 pc [11] $end
+$var wire 1 : pc [10] $end
+$var wire 1 ; pc [9] $end
+$var wire 1 < pc [8] $end
+$var wire 1 = pc [7] $end
+$var wire 1 > pc [6] $end
+$var wire 1 ? pc [5] $end
+$var wire 1 @ pc [4] $end
+$var wire 1 A pc [3] $end
+$var wire 1 B pc [2] $end
+$var wire 1 C pc [1] $end
+$var wire 1 D pc [0] $end
+$var integer 32 E pass $end
+$var integer 32 F fail $end
+
+$scope task chk $end
+$upscope $end
+
+$scope module uut $end
+$var wire 1 G clk $end
+$var wire 1 H rstn $end
+$var wire 1 I en $end
+$var wire 1 J PCNext [31] $end
+$var wire 1 K PCNext [30] $end
+$var wire 1 L PCNext [29] $end
+$var wire 1 M PCNext [28] $end
+$var wire 1 N PCNext [27] $end
+$var wire 1 O PCNext [26] $end
+$var wire 1 P PCNext [25] $end
+$var wire 1 Q PCNext [24] $end
+$var wire 1 R PCNext [23] $end
+$var wire 1 S PCNext [22] $end
+$var wire 1 T PCNext [21] $end
+$var wire 1 U PCNext [20] $end
+$var wire 1 V PCNext [19] $end
+$var wire 1 W PCNext [18] $end
+$var wire 1 X PCNext [17] $end
+$var wire 1 Y PCNext [16] $end
+$var wire 1 Z PCNext [15] $end
+$var wire 1 [ PCNext [14] $end
+$var wire 1 \ PCNext [13] $end
+$var wire 1 ] PCNext [12] $end
+$var wire 1 ^ PCNext [11] $end
+$var wire 1 _ PCNext [10] $end
+$var wire 1 ` PCNext [9] $end
+$var wire 1 a PCNext [8] $end
+$var wire 1 b PCNext [7] $end
+$var wire 1 c PCNext [6] $end
+$var wire 1 d PCNext [5] $end
+$var wire 1 e PCNext [4] $end
+$var wire 1 f PCNext [3] $end
+$var wire 1 g PCNext [2] $end
+$var wire 1 h PCNext [1] $end
+$var wire 1 i PCNext [0] $end
+$var reg 32 j PC [31:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+b11011110101011011011111011101111 $
+bx j
+b0 E
+b0 F
+xD
+xC
+xB
+xA
+x@
+x?
+x>
+x=
+x<
+x;
+x:
+x9
+x8
+x7
+x6
+x5
+x4
+x3
+x2
+x1
+x0
+x/
+x.
+x-
+x,
+x+
+x*
+x)
+x(
+x'
+x&
+x%
+1i
+1h
+1g
+1f
+0e
+1d
+1c
+1b
+0a
+1`
+1_
+1^
+1]
+1\
+0[
+1Z
+1Y
+0X
+1W
+1V
+0U
+1T
+0S
+1R
+0Q
+1P
+1O
+1N
+1M
+0L
+1K
+1J
+0I
+0H
+0G
+$end
+#5000
+1!
+1G
+b0 j
+0D
+0C
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+05
+04
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+#6000
+b1 E
+1#
+b11001010111111101011101010111110 $
+1I
+0i
+1e
+0c
+0_
+0Y
+1X
+1U
+1S
+0O
+0M
+#10000
+0!
+0G
+#15000
+1!
+1G
+#16000
+b10 E
+1"
+0#
+b100 $
+1H
+0I
+0h
+0f
+0e
+0d
+0b
+0`
+0^
+0]
+0\
+0Z
+0X
+0W
+0V
+0U
+0T
+0S
+0R
+0P
+0N
+0K
+0J
+#20000
+0!
+0G
+#25000
+1!
+1G
+#26000
+b11 E
+b1000000000000 $
+0g
+1]
+#30000
+0!
+0G
+#35000
+1!
+1G
+#36000
+b100 E
+1#
+b100 $
+1I
+1g
+0]
+#40000
+0!
+0G
+#45000
+1!
+1G
+b100 j
+1B
+#46000
+b101 E
+b1000 $
+0g
+1f
+#50000
+0!
+0G
+#55000
+1!
+1G
+b1000 j
+0B
+1A
+#56000
+b110 E
+b1100 $
+1g
+#60000
+0!
+0G
+#65000
+1!
+1G
+b1100 j
+1B
+#66000
+b111 E
+0#
+0I
+#70000
+0!
+0G
+#75000
+1!
+1G
+#76000
+b1000 E
+1#
+b10000 $
+1I
+0g
+0f
+1e
+#80000
+0!
+0G
+#85000
+1!
+1G
+b10000 j
+0B
+0A
+1@
+#86000
+b1001 E
+b10000000000000 $
+0e
+1\
+#90000
+0!
+0G
+#95000
+1!
+1G
+b10000000000000 j
+0@
+17
+#96000
+b1010 E
+0"
+0H
+#100000
+0!
+0G
+#105000
+1!
+1G
+b0 j
+07
+#106000
+b1011 E

@@ -68,6 +68,20 @@ QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
 Top level modules:
 	main_decoder
 
+} {} {}} D:/hoc/2025.2/KTMT2/BTL/RISC-V/tb/tb_mux.v {1 {vlog -work work -vopt -stats=none D:/hoc/2025.2/KTMT2/BTL/RISC-V/tb/tb_mux.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module tb_mux
+
+Top level modules:
+	tb_mux
+
+} {} {}} D:/hoc/2025.2/KTMT2/BTL/RISC-V/tb/tb_alu.v {1 {vlog -work work -vopt -stats=none D:/hoc/2025.2/KTMT2/BTL/RISC-V/tb/tb_alu.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module tb_alu
+
+Top level modules:
+	tb_alu
+
 } {} {}} D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/pipeline_regs.v {1 {vlog -work work -vopt -stats=none D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/pipeline_regs.v
 QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
 -- Compiling module pipeline_IF_ID
@@ -80,6 +94,13 @@ Top level modules:
 	pipeline_ID_EX
 	pipeline_EX_MEM
 	pipeline_MEM_WB
+
+} {} {}} D:/hoc/2025.2/KTMT2/BTL/RISC-V/tb/tb_adder.v {1 {vlog -work work -vopt -stats=none D:/hoc/2025.2/KTMT2/BTL/RISC-V/tb/tb_adder.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module tb_adder
+
+Top level modules:
+	tb_adder
 
 } {} {}} D:/hoc/2025.2/KTMT2/BTL/RISC-V/tb/tb_riscv_top.v {1 {vlog -work work -vopt -stats=none D:/hoc/2025.2/KTMT2/BTL/RISC-V/tb/tb_riscv_top.v
 QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
@@ -124,6 +145,13 @@ QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
 
 Top level modules:
 	pc
+
+} {} {}} D:/hoc/2025.2/KTMT2/BTL/RISC-V/tb/tb_pc.v {1 {vlog -work work -vopt -stats=none D:/hoc/2025.2/KTMT2/BTL/RISC-V/tb/tb_pc.v
+QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018
+-- Compiling module tb_pc
+
+Top level modules:
+	tb_pc
 
 } {} {}} D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/wb_stage.v {1 {vlog -work work -vopt -stats=none D:/hoc/2025.2/KTMT2/BTL/RISC-V/rtl/wb_stage.v
 QuestaSim-64 vlog 10.7c Compiler 2018.08 Aug 18 2018

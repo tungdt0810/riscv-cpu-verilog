@@ -1,0 +1,475 @@
+$date
+	Fri May 08 08:57:29 2026
+$end
+$version
+	QuestaSim Version 10.7c
+$end
+$timescale
+	1ps
+$end
+
+$scope module tb_adder $end
+$var reg 32 ! a [31:0] $end
+$var reg 32 " b [31:0] $end
+$var wire 1 # y [31] $end
+$var wire 1 $ y [30] $end
+$var wire 1 % y [29] $end
+$var wire 1 & y [28] $end
+$var wire 1 ' y [27] $end
+$var wire 1 ( y [26] $end
+$var wire 1 ) y [25] $end
+$var wire 1 * y [24] $end
+$var wire 1 + y [23] $end
+$var wire 1 , y [22] $end
+$var wire 1 - y [21] $end
+$var wire 1 . y [20] $end
+$var wire 1 / y [19] $end
+$var wire 1 0 y [18] $end
+$var wire 1 1 y [17] $end
+$var wire 1 2 y [16] $end
+$var wire 1 3 y [15] $end
+$var wire 1 4 y [14] $end
+$var wire 1 5 y [13] $end
+$var wire 1 6 y [12] $end
+$var wire 1 7 y [11] $end
+$var wire 1 8 y [10] $end
+$var wire 1 9 y [9] $end
+$var wire 1 : y [8] $end
+$var wire 1 ; y [7] $end
+$var wire 1 < y [6] $end
+$var wire 1 = y [5] $end
+$var wire 1 > y [4] $end
+$var wire 1 ? y [3] $end
+$var wire 1 @ y [2] $end
+$var wire 1 A y [1] $end
+$var wire 1 B y [0] $end
+$var integer 32 C pass $end
+$var integer 32 D fail $end
+
+$scope task chk $end
+$upscope $end
+
+$scope module uut $end
+$var wire 1 E a [31] $end
+$var wire 1 F a [30] $end
+$var wire 1 G a [29] $end
+$var wire 1 H a [28] $end
+$var wire 1 I a [27] $end
+$var wire 1 J a [26] $end
+$var wire 1 K a [25] $end
+$var wire 1 L a [24] $end
+$var wire 1 M a [23] $end
+$var wire 1 N a [22] $end
+$var wire 1 O a [21] $end
+$var wire 1 P a [20] $end
+$var wire 1 Q a [19] $end
+$var wire 1 R a [18] $end
+$var wire 1 S a [17] $end
+$var wire 1 T a [16] $end
+$var wire 1 U a [15] $end
+$var wire 1 V a [14] $end
+$var wire 1 W a [13] $end
+$var wire 1 X a [12] $end
+$var wire 1 Y a [11] $end
+$var wire 1 Z a [10] $end
+$var wire 1 [ a [9] $end
+$var wire 1 \ a [8] $end
+$var wire 1 ] a [7] $end
+$var wire 1 ^ a [6] $end
+$var wire 1 _ a [5] $end
+$var wire 1 ` a [4] $end
+$var wire 1 a a [3] $end
+$var wire 1 b a [2] $end
+$var wire 1 c a [1] $end
+$var wire 1 d a [0] $end
+$var wire 1 e b [31] $end
+$var wire 1 f b [30] $end
+$var wire 1 g b [29] $end
+$var wire 1 h b [28] $end
+$var wire 1 i b [27] $end
+$var wire 1 j b [26] $end
+$var wire 1 k b [25] $end
+$var wire 1 l b [24] $end
+$var wire 1 m b [23] $end
+$var wire 1 n b [22] $end
+$var wire 1 o b [21] $end
+$var wire 1 p b [20] $end
+$var wire 1 q b [19] $end
+$var wire 1 r b [18] $end
+$var wire 1 s b [17] $end
+$var wire 1 t b [16] $end
+$var wire 1 u b [15] $end
+$var wire 1 v b [14] $end
+$var wire 1 w b [13] $end
+$var wire 1 x b [12] $end
+$var wire 1 y b [11] $end
+$var wire 1 z b [10] $end
+$var wire 1 { b [9] $end
+$var wire 1 | b [8] $end
+$var wire 1 } b [7] $end
+$var wire 1 ~ b [6] $end
+$var wire 1 !! b [5] $end
+$var wire 1 "! b [4] $end
+$var wire 1 #! b [3] $end
+$var wire 1 $! b [2] $end
+$var wire 1 %! b [1] $end
+$var wire 1 &! b [0] $end
+$var wire 1 # y [31] $end
+$var wire 1 $ y [30] $end
+$var wire 1 % y [29] $end
+$var wire 1 & y [28] $end
+$var wire 1 ' y [27] $end
+$var wire 1 ( y [26] $end
+$var wire 1 ) y [25] $end
+$var wire 1 * y [24] $end
+$var wire 1 + y [23] $end
+$var wire 1 , y [22] $end
+$var wire 1 - y [21] $end
+$var wire 1 . y [20] $end
+$var wire 1 / y [19] $end
+$var wire 1 0 y [18] $end
+$var wire 1 1 y [17] $end
+$var wire 1 2 y [16] $end
+$var wire 1 3 y [15] $end
+$var wire 1 4 y [14] $end
+$var wire 1 5 y [13] $end
+$var wire 1 6 y [12] $end
+$var wire 1 7 y [11] $end
+$var wire 1 8 y [10] $end
+$var wire 1 9 y [9] $end
+$var wire 1 : y [8] $end
+$var wire 1 ; y [7] $end
+$var wire 1 < y [6] $end
+$var wire 1 = y [5] $end
+$var wire 1 > y [4] $end
+$var wire 1 ? y [3] $end
+$var wire 1 @ y [2] $end
+$var wire 1 A y [1] $end
+$var wire 1 B y [0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b0 "
+b0 C
+b0 D
+0B
+0A
+0@
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+05
+04
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+0&!
+0%!
+0$!
+0#!
+0"!
+0!!
+0~
+0}
+0|
+0{
+0z
+0y
+0x
+0w
+0v
+0u
+0t
+0s
+0r
+0q
+0p
+0o
+0n
+0m
+0l
+0k
+0j
+0i
+0h
+0g
+0f
+0e
+0d
+0c
+0b
+0a
+0`
+0_
+0^
+0]
+0\
+0[
+0Z
+0Y
+0X
+0W
+0V
+0U
+0T
+0S
+0R
+0Q
+0P
+0O
+0N
+0M
+0L
+0K
+0J
+0I
+0H
+0G
+0F
+0E
+$end
+#1000
+b1 C
+b101 !
+b11 "
+1&!
+1%!
+1d
+1b
+1?
+#2000
+b10 C
+b1100100 !
+b11001000 "
+0&!
+0%!
+1#!
+1~
+1}
+0d
+1_
+1^
+1@
+1=
+1:
+#3000
+b11 C
+b11111111111111111111111111111111 !
+b1 "
+1&!
+0#!
+0~
+0}
+1d
+1c
+1a
+1`
+1]
+1\
+1[
+1Z
+1Y
+1X
+1W
+1V
+1U
+1T
+1S
+1R
+1Q
+1P
+1O
+1N
+1M
+1L
+1K
+1J
+1I
+1H
+1G
+1F
+1E
+0@
+0?
+0=
+0:
+#4000
+b100 C
+b1111111111111111111111111111111 !
+0E
+1#
+#5000
+b101 C
+b10000000000000000000000000000000 !
+b10000000000000000000000000000000 "
+0&!
+1e
+0d
+0c
+0b
+0a
+0`
+0_
+0^
+0]
+0\
+0[
+0Z
+0Y
+0X
+0W
+0V
+0U
+0T
+0S
+0R
+0Q
+0P
+0O
+0N
+0M
+0L
+0K
+0J
+0I
+0H
+0G
+0F
+1E
+0#
+#6000
+b110 C
+b11011110101011011011111011101111 !
+b10010001101000101011001111000 "
+1#!
+1"!
+1!!
+1~
+1{
+1z
+1x
+1v
+1r
+1p
+1o
+1k
+1h
+0e
+1d
+1c
+1b
+1a
+1_
+1^
+1]
+1[
+1Z
+1Y
+1X
+1W
+1U
+1T
+1R
+1Q
+1O
+1M
+1K
+1J
+1I
+1H
+1F
+1B
+1A
+1@
+1=
+1<
+1:
+18
+16
+11
+1-
+1,
+1+
+1&
+1%
+1$
+1#
+#7000
+b111 C
+b10101011110011011110111100000001 !
+b0 "
+0#!
+0"!
+0!!
+0~
+0{
+0z
+0x
+0v
+0r
+0p
+0o
+0k
+0h
+0c
+0b
+0a
+0_
+0^
+0]
+1\
+0X
+1V
+0O
+1N
+1L
+0J
+0H
+1G
+0F
+0A
+0@
+0=
+0<
+19
+17
+06
+15
+14
+13
+12
+01
+10
+1/
+0-
+1*
+1)
+1'
+0&
+0$
+#8000
+b1000 C
